@@ -1,0 +1,8 @@
+<vector android:height="310.34482dp" android:viewportHeight="300"
+    android:viewportWidth="319" android:width="330dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#65562e" android:name="Ellipse 1 copy" android:pathData="m169 0c82.84 0 150 67.16 150 150c0 82.84 -67.16 150 -150 150c-82.84 0 -150 -67.16 -150 -150c0 -82.84 67.16 -150 150 -150z"/>
+    <path android:fillColor="#65562e" android:name="Ellipse 1 copy" android:pathData="m169 69c44.74 0 81 36.26 81 81c0 44.74 -36.26 81 -81 81c-44.74 0 -81 -36.26 -81 -81c0 -44.74 36.26 -81 81 -81zm0 -69c-82.84 0 -150 67.16 -150 150c0 82.84 67.16 150 150 150c82.84 0 150 -67.16 150 -150c0 -82.84 -67.16 -150 -150 -150z"/>
+    <path android:fillColor="#9f8746" android:name="Ellipse 1" android:pathData="m150 0c82.84 0 150 67.16 150 150c0 82.84 -67.16 150 -150 150c-82.84 0 -150 -67.16 -150 -150c0 -82.84 67.16 -150 150 -150z"/>
+    <path android:fillColor="#9f8746" android:name="Ellipse 1" android:pathData="m150 69c44.74 0 81 36.26 81 81c0 44.74 -36.26 81 -81 81c-44.74 0 -81 -36.26 -81 -81c0 -44.74 36.26 -81 81 -81zm0 -69c-82.84 0 -150 67.16 -150 150c0 82.84 67.16 150 150 150c82.84 0 150 -67.16 150 -150c0 -82.84 -67.16 -150 -150 -150z"/>
+    <path android:fillColor="#65562e" android:name="C" android:pathData="m193.6 226.67 10.92 -10.92v-32.77h-21.84v21.84h-65.53v-109.22h65.53v21.84h21.84v-32.77l-10.92 -10.92h-87.38l-10.92 10.92v131.06l10.92 10.92h87.38z"/>
+</vector>

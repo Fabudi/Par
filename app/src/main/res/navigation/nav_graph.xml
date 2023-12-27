@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MenuFragment">
+
+    <fragment
+        android:id="@+id/MenuFragment"
+        android:name="inc.fabudi.par.MenuFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_menu">
+
+        <action
+            android:id="@+id/action_MenuFragment_to_GameFragment"
+            app:destination="@id/GameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/GameFragment"
+        android:name="inc.fabudi.par.GameFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_game">
+
+        <action
+            android:id="@+id/action_GameFragment_to_MenuFragment"
+            app:popUpTo="@id/MenuFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/MenuFragment" />
+        <action
+            android:id="@+id/action_GameFragment_to_ResultFragment"
+            app:popUpTo="@id/ResultFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/ResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ResultFragment"
+        android:name="inc.fabudi.par.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_ResultFragment_to_MenuFragment"
+            app:popUpTo="@id/MenuFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/MenuFragment" />
+        <action
+            android:id="@+id/action_ResultFragment_to_GameFragment"
+            app:popUpTo="@id/GameFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/GameFragment" />
+    </fragment>
+</navigation>
